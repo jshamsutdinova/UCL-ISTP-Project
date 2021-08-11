@@ -74,7 +74,7 @@ export default ({
       {
         id: 4,
         name: 'Elena Kupriyanova',
-        institute: 'CAO at Pulkovo',
+        institute: 'Pulkovo Observatory',
         description: 'Quasi-periodic pulsations in multi-wavelength emission of solar flares'
       },
       {
@@ -86,7 +86,7 @@ export default ({
       {
         id: 6,
         name: 'Ivan Myshyakov',
-        institute: 'ISTP SB RAS',
+        institute: 'Institute of Solar-Terrestrial Physics',
         description: 'Coronal magnetic field reconstruction'
       }
     ]
