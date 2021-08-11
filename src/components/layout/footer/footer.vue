@@ -26,10 +26,10 @@
             </ul>
             <ul class="mb-1">
               <li class="mb-1 pl-3">
-                <p class="project"> Project No.11-11-11 </p>
+                <p class="project"> Project IEC\R2\202175 </p>
               </li>
               <li class="mb-1 pl-2">
-                <p class="project"> Project No.11-11-11 </p>
+                <p class="project"> Project No.21-52-10012 </p>
               </li>
             </ul>
           </div>
