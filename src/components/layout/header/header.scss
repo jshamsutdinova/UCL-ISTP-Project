@@ -8,33 +8,29 @@ div.top-bar{
     flex-direction: row;
     justify-content: flex-end;
 }
-div.menu {
-    display: flex;
-    justify-content: center;
-    div {
-        align-self: flex-end;
-    }
 
-    .v-btn {
-        color: aliceblue;
-        font-weight: 700;
-    }
-    .v-divider {
-        border-color: aliceblue;
-    }
-}
 @mixin flag-icon ($justify, $navigator:false){
     width: 50px;
     display: flex;
     flex-direction: row;
     justify-content: $justify;
 }
+
+$maxWidth: 1440;
+
+@mixin responsive-font($mobileSize, $pcSize) {
+    $addSize: $pcSize - $mobileSize;
+    $maxWidth: $maxWidth - 320;
+    font-size: calc(#{$mobileSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth})) !important;
+}
+
 div.lang{
     @include flag-icon(flex-end, $navigator:false)
 }
 div.lang-nav{
     @include flag-icon(flex-start, $navigator:false)
 }
+
 div.title {
     flex-direction: column;
     text-align: center;
@@ -42,201 +38,35 @@ div.title {
     text-shadow: 1px 1px 10px black;
     font-weight: 900;
     line-height: 130%;
+    @include responsive-font(16, 34)
 }
-@media screen and (max-width: 344px) {
-    div.title {
-        font-size: 16px !important;
+
+div.menu {
+    display: flex;
+    justify-content: center;
+    div {
+        align-self: flex-end;
     }
-}
-@media only screen and (min-width: 342px) and (max-width: 360px){
-    div.title {
-        font-size: 17px !important;
+    .v-btn {
+        color: aliceblue;
+        font-weight: 700;
     }
-}
-@media only screen and (min-width: 361px) and (max-width: 381px){
-    div.title {
-        font-size: 17px !important;
+    .v-btn.v-size--default {
+        @include responsive-font(12, 17);
     }
-}
-@media only screen and (min-width: 382px) and (max-width: 403px){
-    div.title {
-        font-size: 18px !important;
-    }
-}
-@media only screen and (min-width: 404px) and (max-width: 423px){
-    div.title {
-        font-size: 19px !important;
-    }
-}
-@media only screen and (min-width: 424px) and (max-width: 444px){
-    div.title {
-        font-size: 20px !important;
-    }
-}
-@media only screen and (min-width: 445px) and (max-width: 464px){
-    div.title {
-        font-size: 21px !important;
-    }
-}
-@media only screen and (min-width: 465px) and (max-width: 485px){
-    div.title {
-        font-size: 23px !important;
-    }
-}
-@media only screen and (min-width: 486px) and (max-width: 506px){
-    div.title {
-        font-size: 23px !important;
-    }
-}
-@media only screen and (min-width: 507px) and (max-width: 526px){
-    div.title {
-        font-size: 24px !important;
-    }
-}
-@media only screen and (min-width: 527px) and (max-width: 559px){
-    div.title {
-        font-size: 23px !important;
-    }
-}
-@media only screen and (min-width: 560px) and (max-width: 582px){
-    div.title {
-        font-size: 24px !important;
-    }
-}
-@media only screen and (min-width: 583px) and (max-width: 599px){
-    div.title {
-        font-size: 26px !important;
+    .v-divider {
+        border-color: aliceblue;
     }
 }
 
-@media only screen and (max-width: 599px) {
-    
+@media screen and (max-width: 599px) {
     div.menu, div.lang {
         display: none;
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 604px) {
+@media screen and (min-width: 1565px) {
     div.title {
-        font-size: 20px !important;
-    }
-    div.menu {
-        margin-top: 15px !important;
-        .v-btn.v-size--default {
-            font-size: 12px;
-        }
-    }
-}
-@media only screen and (min-width: 605px) and (max-width: 633px) {
-    div.title {
-        font-size: 21px !important;
-    }
-    div.menu {
-        margin-top: 15px !important;
-        .v-btn.v-size--default {
-            font-size: 12px;
-        }
-    }
-}
-@media only screen and (min-width: 634px) and (max-width: 662px) {
-    div.title {
-        font-size: 22px !important;
-    }
-    div.menu {
-        margin-top: 12px !important;
-        .v-btn.v-size--default {
-            font-size: 14px;
-        }
-    }
-}
-@media only screen and (min-width: 663px) and (max-width: 808px) {
-    div.title {
-        font-size: 23px !important;
-    }
-    div.menu {
-        margin-top: 10px !important;
-        .v-btn.v-size--default {
-            font-size: 14px;
-        }
-    }
-}
-@media only screen and (min-width: 809px) and (max-width: 998px) {
-    div.title {
-        font-size: 23px !important;
-    }
-    header {
-        height: 170px !important;
-    }
-    div.menu {
-        margin-top: 20px !important;
-    }
-}
-@media only screen and (min-width: 998px) and (max-width: 1082px) {
-    div.title {
-        font-size: 25px !important;
-    }
-    header {
-        height: 170px !important;
-    }
-    div.menu {
-        margin-top: 20px !important;
-    }
-}
-@media only screen and (min-width: 1083px) and (max-width: 1166px) {
-    div.title {
-        font-size: 27px !important;
-    }
-    div.menu {
-        margin-top: 20px !important;
-    }
-}
-@media only screen and (min-width: 1167px) and (max-width: 1344px) {
-    div.title {
-        font-size: 25px !important;
-        width: 80%;
-        margin: auto;
-    }
-    div.menu {
-        margin-top: 20px !important;
-    }
-}
-@media only screen and (min-width: 1345px) and (max-width: 1449px) {
-    div.title {
-        font-size: 27px !important;
-        width: 80%;
-        margin: auto;
-    }
-    div.menu {
-        margin-top: 20px !important;
-    }
-}
-@media only screen and (min-width: 1450px) and (max-width: 1848px) {
-    div.title {
-        font-size: 30px !important;
-        width: 80%;
-        margin: auto;
-    }
-    div.menu {
-        margin-top: 15px !important;
-    }
-}
-@media only screen and (min-width: 1849px) and (max-width: 2150px) {
-    div.title {
-        font-size: 32px !important;
-        width: 80%;
-        margin: auto;
-    }
-    div.menu {
-        margin-top: 10px !important;
-    }
-}
-@media only screen and (min-width: 2151px) and (max-width: 12150px) {
-    div.title {
-        font-size: 34px !important;
-        width: 80%;
-        margin: auto;
-    }
-    div.menu {
-        margin-top: 10px !important;
+       font-size: 34px !important;
     }
 }

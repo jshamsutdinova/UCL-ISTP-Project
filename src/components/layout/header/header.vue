@@ -15,13 +15,13 @@
             contain
             max-height="30"
             :src="require('@/assets/flags/russia.png')"
-            :alt="RU"
+            alt="RU"
           />
         <v-img
             contain
             max-height="30"
             :src="require('@/assets/flags/united-kingdom.png')"
-            :alt="GB"
+            alt="GB"
           />
       </div>
     </div>
