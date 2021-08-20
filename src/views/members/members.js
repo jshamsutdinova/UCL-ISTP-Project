@@ -13,25 +13,25 @@ export default ({
         id: 1,
         name: 'Hamish Reid (PI)',
         institute: 'University College London',
-        description: 'Research intersts'
+        description: 'Research interests'
       },
       {
         id: 2,
         name: 'Sarah Matthews',
         institute: 'University College London',
-        description: 'Research intersts'
+        description: 'Research interests'
       },
       {
         id: 3,
         name: 'David Long',
         institute: 'University College London',
-        description: 'Research intersts'
+        description: 'Research interests'
       },
       {
         id: 4,
         name: 'Gherardo Varlori',
         institute: 'University College London',
-        description: 'Research intersts'
+        description: 'Research interests'
       },
       {
         id: 5,
@@ -43,13 +43,13 @@ export default ({
         id: 6,
         name: 'Jinge Zhang',
         institute: 'University College London',
-        description: 'Research intersts'
+        description: 'Research interests'
       },
       {
         id: 7,
         name: 'Camile Lorfing',
         institute: 'University College London',
-        description: 'Research intersts'
+        description: 'Research interests'
       }
     ],
     russian_members: [
@@ -58,7 +58,7 @@ export default ({
         name: 'Alexander Altyntsev (PI)',
         shortNameInst: 'Inst. of Solar-Terrestrial Physics',
         institute: 'Institute of Solar-Terrestrial Physics',
-        description: 'Research intersts'
+        description: 'Solar radioastronomy, transient events, solar flares, electron acceleration'
       },
       {
         id: 2,
