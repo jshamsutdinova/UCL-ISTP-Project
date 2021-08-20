@@ -56,6 +56,7 @@ export default ({
       {
         id: 1,
         name: 'Alexander Altyntsev (PI)',
+        shortNameInst: 'Inst. of Solar-Terrestrial Physics',
         institute: 'Institute of Solar-Terrestrial Physics',
         description: 'Research intersts'
       },
@@ -63,32 +64,38 @@ export default ({
         id: 2,
         name: 'Larisa Kashapova',
         institute: 'Institute of Solar-Terrestrial Physics',
+        shortNameInst: 'Inst. of Solar-Terrestrial Physics',
         description: 'The energy release and transport processes in solar flares'
       },
       {
         id: 3,
         name: 'Nataliia Meshalkina',
         institute: 'Institute of Solar-Terrestrial Physics',
+        shortNameInst: 'Inst. of Solar-Terrestrial Physics',
         description: 'Reconnection processes in solar flares, in particular, sources of fine-time-structured microwave emission in solar flares, properties and characteristics of flare sources in radio and HXR emission'
       },
       {
         id: 4,
         name: 'Elena Kupriyanova',
         institute: 'Pulkovo Observatory',
+        shortNameInst: 'Pulkovo Observatory',
         description: 'Quasi-periodic pulsations in multi-wavelength emission of solar flares'
       },
       {
         id: 5,
         name: 'Dmitriy Zhdanov',
         institute: 'Institute of Solar-Terrestrial Physics',
+        shortNameInst: 'Inst. of Solar-Terrestrial Physics',
         description: 'Microwave fine stuctures of solar flares and microwave dynamic spectra observed with Badary Broadband Microwave Spectropolarimeter (BBMS)'
       },
       {
         id: 6,
         name: 'Ivan Myshyakov',
         institute: 'Institute of Solar-Terrestrial Physics',
+        shortNameInst: 'Inst. of Solar-Terrestrial Physics',
         description: 'Coronal magnetic field reconstruction'
       }
     ]
-  })
+  }) // end data()
+
 })

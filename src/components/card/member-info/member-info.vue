@@ -6,7 +6,7 @@
     <v-card-subtitle>
       {{ institute }}
     </v-card-subtitle>
-    <v-card-actions>
+    <v-card-actions class="py-1 pl-4">
       <v-btn
         text
         @click="show = !show"

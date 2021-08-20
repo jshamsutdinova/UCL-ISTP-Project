@@ -26,8 +26,15 @@
               :key="member.id"
             >
               <member-info
+                class="full-inst"
                 :full_name="member.name"
                 :institute="member.institute"
+                :description="member.description"
+              />
+              <member-info
+                class="short-inst"
+                :full_name="member.name"
+                :institute="member.shortNameInst"
                 :description="member.description"
               />
             </v-col>
