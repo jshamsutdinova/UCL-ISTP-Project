@@ -13,7 +13,7 @@ export default ({
         id: 1,
         name: 'Hamish Reid (PI)',
         institute: 'University College London',
-        description: 'Research interests'
+        description: 'The acceleration of energetic electrons and their subsequent transport through the solar corona and solar wind'
       },
       {
         id: 2,
@@ -43,7 +43,7 @@ export default ({
         id: 6,
         name: 'Jinge Zhang',
         institute: 'University College London',
-        description: 'Research interests'
+        description: 'Study accelerated electrons transport and closed magnetic flux tubes in the solar corona by analyzing type J and U bursts observed by LOFAR'
       },
       {
         id: 7,

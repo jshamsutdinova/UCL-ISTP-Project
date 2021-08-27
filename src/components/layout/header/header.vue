@@ -4,7 +4,7 @@
     app
     absolute
     prominent
-    :src="require('@/assets/banner/banner_1.jpg')"
+    :src="require('@/assets/banner/banner_1_compress.jpg')"
     height="180px"
   >
   <div class="content">
