@@ -13,14 +13,14 @@
                 <v-img
                   alt="Royal Society"
                   width="150"
-                  :src="require('@/assets/sponsors/royal-society_1.png')"
+                  src="@/assets/sponsors/royal-society_1.png"
                 />
               </li>
               <li>
                 <v-img
                   alt="RFBR"
                   width="150"
-                  :src="require('@/assets/sponsors/rfbr.png')"
+                  src="@/assets/sponsors/rfbr.png"
                 />
               </li>
             </ul>
@@ -36,14 +36,16 @@
           <div class="footer-bottom">
             <ul>
               <li>
-                <v-img
-                  alt="UCL"
-                  :src="require('@/assets/emblems/ucl-white.png')"
-                  width="120"
-                />
+                <a @click="openPage">
+                  <v-img
+                    alt="UCL"
+                    src="@/assets/emblems/ucl-white.png"
+                    width="120"
+                  />
+                </a>
               </li>
               <li>
-                @{{ new Date().getFullYear() }}<strong> UCL</strong>
+                {{ new Date().getFullYear() }}<strong> UCL</strong>
               </li>
             </ul>
           </div>
