@@ -1,0 +1,28 @@
+div.v-card {
+    display: flex;
+}
+v-title {
+    color: $blue-color;   
+}
+
+div.name {
+    @include responsive-font(16, 17);
+    font-weight: 500;
+    color: $blue-color;
+}
+
+div.name:hover {
+    color: $orange-color;
+}
+div.author {
+    font-size: 15px;
+    color: rgb(56, 55, 58) !important;
+    display: inline-block;
+    align-self: flex-end;
+
+}
+
+.v-list-item__content {
+    padding: 6px;
+    
+}
