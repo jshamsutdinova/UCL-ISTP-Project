@@ -5,11 +5,7 @@
         <abstract-text />
       </v-col>
       <v-col cols="12" md="4" lg="4">
-        <div class='plots'>
-          <img src="@/assets/plots/plot_1.png" alt="plot_1" class="pb-3">
-          <img src="@/assets/plots/plot_2.png" alt="plot_2">
-        </div>
-        <!-- <plot-carousel /> -->
+          <img src="@/assets/plots/SRHvsLOFAR1.png" alt="SRH vs LOFAR">
       </v-col>
     </v-row>
   </v-container>
