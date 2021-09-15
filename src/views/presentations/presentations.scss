@@ -1,0 +1,10 @@
+div.conf-name {
+    color: $title-color;
+    @include responsive-font(14, 20);
+    line-height: 1.2;
+}
+
+div.conf-date {
+    color: $blue-color;
+    @include responsive-font(14, 18);
+}
