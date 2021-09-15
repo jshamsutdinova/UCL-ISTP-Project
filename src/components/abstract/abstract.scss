@@ -5,11 +5,13 @@ div.container{
 .v-card__title {
     color:  #032539;
     font-family: 'Times New Roman', Times, serif !important;
+    @include responsive-font(24, 36)
 }
 
 div.text {
-    font-size: medium; //need to change
+    font-size: medium;
     text-align: justify;
+    color: rgb(58, 57, 57);  
 }
 
 .v-divider {
@@ -22,56 +24,3 @@ div.text {
         width: 70%;
     }
 }
-
-@media only screen and (max-width: 425px){
-    .v-card__title {
-        padding-bottom: 10px;
-
-        strong {
-            font-size: 30px;
-        }
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .v-card__title {
-        strong {
-            font-size: 35px;
-        }
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1440px) {
-    .v-card__title {
-        padding: 20px 30px;
-
-        strong {
-            font-size: 45px;
-        }
-    }
-    .v-card__text {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .v-divider {
-        margin-left: 30px !important;
-        margin-right: 30px !important;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .v-card__title {
-        font-size: 3rem !important;
-        padding: 20px 30px;
-    }
-    .v-card__text {
-        padding: 20px 30px 20px;
-        p {
-            font-size: 1.1rem !important;
-            line-height: 1.5rem;
-        }
-    }
-}
-
-
-
