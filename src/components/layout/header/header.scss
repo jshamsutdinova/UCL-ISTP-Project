@@ -42,6 +42,7 @@ div.title {
 }
 
 div.menu {
+    margin-top: 8px;
     display: flex;
     justify-content: center;
     div {
@@ -67,6 +68,17 @@ div.menu {
 
 @media screen and (min-width: 1565px) {
     div.title {
-       font-size: 34px !important;
+       font-size: 36px !important;
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+    div.menu {
+        .v-btn.v-size--default {
+            font-size: 18px !important;
+        }
+        .v-application .mt-2 {
+            margin-top: 0px !important;
+        }
+        margin-top: 0px;
     }
 }
