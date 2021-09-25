@@ -15,7 +15,7 @@
             {{ title }}
         </div>
         <v-list-item-subtitle class="author">
-          <u> {{ mainAuthor }}</u>, {{ authors }}
+          {{ main }} <b>{{ speaker }}</b> {{ authors }}
         </v-list-item-subtitle>
       </v-list-item-content>
 

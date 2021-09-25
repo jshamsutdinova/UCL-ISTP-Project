@@ -1,10 +1,13 @@
 div.conf-name {
     color: $title-color;
-    @include responsive-font(14, 20);
+    @include responsive-font(14, 16);
     line-height: 1.2;
+    cursor: pointer;
 }
 
 div.conf-date {
     color: $blue-color;
-    @include responsive-font(14, 18);
+    @include responsive-font(14, 17);
 }
+
+
