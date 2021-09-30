@@ -11,14 +11,14 @@ export default ({
     test_files: [
       {
         id: 1,
-        name_conf: '16th annual conference "Plasma Physics in the Solar System"',
+        name_conf: '16th annual meeting "Plasma Physics in the Solar System"',
         date_place: '8-12 February 2021, Space Research Institute, Russia',
         link_conf: 'https://plasma2021.cosmos.ru/',
         presentations: [
           {
             num: 1,
-            type: 'Oral report',
-            title: 'On the origin of the QPPs in the weak Solar flare according to the observation of the new generation Radioheliographs',
+            type: 'Talk',
+            title: 'On the origin of the QPPs in the weak Solar flare according to the observations of the new generation Radioheliographs',
             speaker: 'Kupriyanova E.G.',
             authors: 'Kolotkov D.Yu., Kashapova L.K., Kudryavtseva A.V., Tan C.-M., Reid H.A.S.',
             link: ''
@@ -43,22 +43,22 @@ export default ({
       },
       {
         id: 3,
-        name_conf: 'Russian Astronomical Conference',
+        name_conf: 'Russian Astronomical Meeting',
         date_place: '23-28 August 2021, SAI Moscow University, Moscow, Russia',
         link_conf: 'https://www.vak2021.ru/',
         presentations: [
           {
             num: 1,
-            type: 'Oral report',
-            title: 'To the microwave sources of the type III noise storms on 10th of April, 2019',
+            type: 'Talk',
+            title: 'On microwave sources of the type III noise storms on 10th of April, 2019',
             speaker: 'Elena G. Kupriyanova, ',
             authors: 'Larisa K. Kashapova, Anastasia V. Kudryavtseva, Hamish A.S. Reid, Jinge Zhang',
             link: 'https://drive.google.com/file/d/1-COes0BNwH6YpJPMjoOD_l_hSxQDZRCG/view?usp=sharing'
           },
           {
             num: 2,
-            type: 'Oral report',
-            title: 'Relationship between microwave radiation and meter-type III bursts in weak transient events',
+            type: 'Talk',
+            title: 'Relationship between microwave emission and type III radio bursts in weak transient events',
             main_author: 'Alexander T. Altyntsev, ',
             speaker: 'Dmitriy A. Zhdanov, ',
             authors: ' Nataliia C. Meshalkina, Ivan I. Myshyakov, Hamish A.S. Reid',
@@ -68,14 +68,14 @@ export default ({
       },
       {
         id: 4,
-        name_conf: 'Magnetism and Activity of the Sun and Stars',
-        date_place: '31 August - 3 September 2021, Crimea, Russia',
+        name_conf: 'Meeting "Magnetism and Activity of the Sun and Stars"',
+        date_place: '31 August - 3 September 2021, CrAO, Russia',
         link_conf: 'https://sun.crao.ru/conferences/magnetism-and-activity-of-the-sun-and-stars-2021',
         presentations: [
           {
             num: 1,
-            type: 'Oral report',
-            title: 'Microwave source of the type III radio bursts using SRH and LOFAR data',
+            type: 'Talk',
+            title: 'Microwave source of the type III radio bursts according SRH and LOFAR data',
             speaker: 'Elena G. Kupriyanova, ',
             authors: 'Larisa K. Kashapova, Hamish A.S. Reid, Jinge Zhang',
             link: 'https://drive.google.com/file/d/1XaxSqjpftse6RmOxbGaHX9hLfwlIXOSt/view?usp=sharing'
@@ -83,7 +83,7 @@ export default ({
           {
             num: 2,
             type: 'Invited talk',
-            title: "Multiwave Radioheliograph: Weak Transient Phenomena in the Sun's Corona",
+            title: 'Multiwave Radioheliograph: Weak Transient Phenomena in the Solar Corona',
             speaker: 'Alexander T. Altyntsev, ',
             authors: 'Sergey V. Lesovoy, Nataliia C. Meshalkina, Maria V. Globa, Dmitriy A. Zhdanov, Ivan I. Myshyakov, Hamish A.S. Reid',
             link: 'https://drive.google.com/file/d/1sktIZZjXp2utuXkh0jfy2McqmBECKM9Y/view?usp=sharing'
