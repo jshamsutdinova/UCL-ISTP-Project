@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/ucl-istp-project-rebuild/',
+  publicPath: '/ucl-istp-project/',
 
   transpileDependencies: [
     'vuetify'
