@@ -25,7 +25,7 @@ export default ({
         id: 3,
         name: 'David Long',
         institute: 'University College London',
-        description: 'Research interests'
+        description: 'The initiation and early evolution of solar eruptions using plasma diagnostics'
       },
       {
         id: 4,

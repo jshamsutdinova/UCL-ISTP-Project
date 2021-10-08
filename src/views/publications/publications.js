@@ -27,7 +27,7 @@ export default ({
         id: 3,
         authors: 'Altyntsev A.T., Zhdanov D.A., Meshalkina N.C., Myshyakov I.I., Reid H.A.S.',
         title: '"About relationship between microwave emission and the type III radio bursts in weak transient events"',
-        source: 'Abstract book of Russian Astronomical Conference "Astronomy in the era of multichannel research" 23-28 August 2021, SAI Moscow University, Moscow, Russia, p 341 (in Russian)',
+        source: 'Abstract book of Russian Astronomical Meeting "Astronomy in the era of multichannel research" 23-28 August 2021, SAI Moscow University, Moscow, Russia, p 341 (in Russian)',
         url: 'https://www.vak2021.ru/wp-content/uploads/2021/08/vak2021_abstracts.pdf'
       },
       {
@@ -48,7 +48,7 @@ export default ({
         id: 6,
         authors: 'Kupriyanova E.G., Kashapova L.K., Reid H.A.S., Zhang J.',
         title: '"On the microwave sources of the type III noise storms on 10th of April, 2019"',
-        source: 'Abstract book of Russian Astronomical Conference "Astronomy in the era of multichannel research" 23-28 August 2021, SAI Moscow University, Moscow, Russia, p 359 (in Russian)',
+        source: 'Abstract book of Russian Astronomical Meeting "Astronomy in the era of multichannel research" 23-28 August 2021, SAI Moscow University, Moscow, Russia, p 359 (in Russian)',
         url: 'https://www.vak2021.ru/wp-content/uploads/2021/08/vak2021_abstracts.pdf'
       },
       {
@@ -57,7 +57,18 @@ export default ({
         title: '"Multiwave Radioheliograph: Weak Transient Phenomena in the Solar Corona"',
         source: 'Abstact Book (in Russian)',
         url: 'https://sun.crao.ru/images/conference/2021/report/Altyncev.pdf'
+      },
+      {
+        id: 8,
+        authors: 'Kashapova L.K., Kupriyanova E.G., Kolotkov D.Yu., Reid H.A.S., Kudryavtseva A.V., Tan C.-M., Zhang J.',
+        title: '"Relationship between microwave sources in Solar flares and the Solar bursts in the decimeter and meter radio range"',
+        source: 'Abstract Book of XXV Russian annual meeting "Solar and solar-terrestrial physics" 4-8 October 2021, Pulkovo Observatory, Saint Petersburg, Russia, p 44 (in Russian)',
+        url: 'http://www.gaoran.ru/russian/solphys/2021/gao2021.pdf'
       }
     ]
-  })
+  }), // end data
+
+  mounted () {
+    this.publications.sort((a, b) => b.id - a.id)
+  }
 })

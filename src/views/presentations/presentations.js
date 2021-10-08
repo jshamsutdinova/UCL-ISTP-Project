@@ -8,7 +8,7 @@ export default ({
   },
 
   data: () => ({
-    test_files: [
+    files: [
       {
         id: 1,
         name_conf: '16th annual meeting "Plasma Physics in the Solar System"',
@@ -114,6 +114,23 @@ export default ({
           }
         ]
 
+      },
+      {
+        id: 6,
+        name_conf: 'XXV Russian annual meeting "Solar and solar-terrestrial physics"',
+        date_place: '4-8 October 2021, Pulkovo Observatory, Saint Petersburg, Russia',
+        link_conf: 'http://www.gaoran.ru/russian/solphys/2020/',
+        presentations: [
+          {
+            num: 1,
+            type: 'Talk',
+            title: 'Relationship between microwave sources in Solar flares and the Solar bursts in the decimeter and meter radio range',
+            speaker: 'Kashapova L.K., ',
+            authors: 'Kupriyanova E.G., Kolotkov D.Yu., Reid H.A.S., Kudryavtseva A.V., Tan C.-M., Zhang J.',
+            link: ''
+          }
+        ]
+
       }
     ]
   }), // end data
@@ -122,5 +139,9 @@ export default ({
     openFile: function (url) {
       window.open(url, '_blank')
     }
+  },
+
+  mounted () {
+    this.files.sort((a, b) => b.id - a.id)
   }
 })
