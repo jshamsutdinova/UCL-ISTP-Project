@@ -64,6 +64,13 @@ export default ({
         title: '"Relationship between microwave sources in Solar flares and the Solar bursts in the decimeter and meter radio range"',
         source: 'Abstract Book of XXV Russian annual meeting "Solar and solar-terrestrial physics" 4-8 October 2021, Pulkovo Observatory, Saint Petersburg, Russia, p 44 (in Russian)',
         url: 'http://www.gaoran.ru/russian/solphys/2021/gao2021.pdf'
+      },
+      {
+        id: 9,
+        authors: 'Larisa Kashapova, Dmitrii Kolotkov, Elena Kupriyanova, Anastasiia Kudriavtseva, Chengming Tan, Hamish Reid',
+        title: '"COMMON ORIGIN OF QUASI-PERIODIC PULSATIONS IN MICROWAVE AND DECIMETRIC SOLAR RADIO BURSTS"',
+        source: 'Solar Physics DOI 10.1007/s11207-021-01934-x ',
+        url: 'https://ui.adsabs.harvard.edu/abs/2021SoPh..296..185K/abstract'
       }
     ]
   }), // end data
