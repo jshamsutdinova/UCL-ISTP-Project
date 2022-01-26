@@ -11,18 +11,22 @@
     <div class="top-bar">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="white" class="hidden-sm-and-up mr-auto"></v-app-bar-nav-icon>
       <div class="lang">
-        <v-img
-            contain
-            max-height="30"
-            src="@/assets/flags/russia.png"
-            alt="RU"
-          />
-        <v-img
+        <a href="" class="lang-link">
+          <v-img
             contain
             max-height="30"
             src="@/assets/flags/united-kingdom.png"
             alt="GB"
           />
+        </a>
+        <a class="lang-link" href="https://smare.iszf.irk.ru/#/">
+          <v-img
+            contain
+            max-height="30"
+            src="@/assets/flags/russia.png"
+            alt="RU"
+          />
+        </a>
       </div>
     </div>
     <div class="title overline mt-1">
@@ -49,18 +53,22 @@
     v-model="drawer"
   >
       <div class="lang-nav mt-2 ml-2">
-        <v-img
-            contain
-            max-height="30"
-            src="@/assets/flags/united-kingdom.png"
-            alt="GB"
-          />
-        <v-img
-          contain
-          max-height="30"
-          src="@/assets/flags/russia.png"
-          alt="RU"
-        />
+        <a class="lang-link">
+          <v-img
+              contain
+              max-height="30"
+              src="@/assets/flags/united-kingdom.png"
+              alt="GB"
+            />
+        </a>
+        <a href="https://smare.iszf.irk.ru/#/" class="lang-link">
+            <v-img
+              contain
+              max-height="30"
+              src="@/assets/flags/russia.png"
+              alt="RU"
+            />
+        </a>
       </div>
     <v-list
         nav

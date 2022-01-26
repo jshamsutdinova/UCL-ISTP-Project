@@ -15,6 +15,9 @@ div.top-bar{
     flex-direction: row;
     justify-content: $justify;
 }
+a.lang-link{
+    width: 50px;
+}
 
 $maxWidth: 1440;
 

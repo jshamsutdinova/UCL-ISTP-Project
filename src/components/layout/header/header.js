@@ -13,6 +13,13 @@ export default ({
     ]
   }),
 
+  methods: {
+    openPage: function () {
+      var url = 'https://smare.iszf.irk.ru/#/'
+      window.open(url, '_blank')
+    }
+  },
+
   watch: {
     group () {
       this.drawer = false
